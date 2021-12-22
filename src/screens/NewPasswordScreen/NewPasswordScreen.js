@@ -32,7 +32,7 @@ const NewPasswordScreen = () => {
           rules={{required: 'Code is required'}}
         />
 
-        <CustomInputxsf
+        <CustomInput
           placeholder="Enter your new password"
           name="name"
           control={ }
