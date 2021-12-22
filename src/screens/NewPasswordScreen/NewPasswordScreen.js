@@ -35,7 +35,7 @@ const NewPasswordScreen = () => {
         <CustomInput
           placeholder="Enter your new password"
           name="name"
-          control={ }
+          control={control}
           secureTextEntry
           rules={{
             required: 'Password is required',
