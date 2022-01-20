@@ -1,0 +1,47 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "testAuthIdentityPool",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "authen6e1b59d2",
+    "userPoolName": "Authentication",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Forgot password code: {####}",
+    "emailVerificationMessage": "Forgot password code: {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 7,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "preferred_username",
+      "email",
+      "name"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [],
+    "userpoolClientReadAttributes": [],
+    "userpoolClientLambdaRole": "Authen6e1b59d2_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "6e1b59d2",
+    "resourceName": "Authentication",
+    "authSelections": "identityPoolAndUserPool",
+    "serviceName": "Cognito",
+    "useDefault": "manual",
+    "userPoolGroups": false,
+    "userPoolGroupList": [],
+    "adminQueries": false,
+    "thirdPartyAuth": false,
+    "authProviders": [],
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}
